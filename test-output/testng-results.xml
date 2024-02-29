@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T15:24:31 IST" name="Suite" finished-at="2024-02-28T15:28:58 IST" duration-ms="267089">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T15:24:31 IST" name="Test" finished-at="2024-02-28T15:28:58 IST" duration-ms="267089">
+      <class name="testCases.TC_001_HomePageDDT">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:24:31 IST" name="setUp" finished-at="2024-02-28T15:25:14 IST" duration-ms="42840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="profileValidation(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:25:15 IST" name="profileValidation" data-provider="userVerificationData" finished-at="2024-02-28T15:25:17 IST" duration-ms="2189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Das, Parag (Cognizant)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2308358@cognizant.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileValidation -->
+        <test-method signature="headerPrint()[pri:1, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:25:17 IST" name="headerPrint" finished-at="2024-02-28T15:27:43 IST" duration-ms="146151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerPrint -->
+        <test-method signature="checkSubHeaderValidity(java.lang.String,java.lang.String)[pri:2, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:27:44 IST" name="checkSubHeaderValidity" data-provider="headerDataCheckingData" finished-at="2024-02-28T15:27:56 IST" duration-ms="11928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Corporate Functions]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Legal & Corporate Affairs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubHeaderValidity -->
+        <test-method signature="clickSubHeaderValidity(java.lang.String)[pri:4, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:27:56 IST" name="clickSubHeaderValidity" data-provider="headerDataClickingData" finished-at="2024-02-28T15:28:40 IST" duration-ms="43987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ethics and Compliance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSubHeaderValidity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_HomePageDDT@51399530]" started-at="2024-02-28T15:28:57 IST" name="tearDown" finished-at="2024-02-28T15:28:58 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_HomePageDDT -->
+      <class name="testCases.TC_002_EthicsandCompliancePageTest">
+        <test-method signature="verifyPage(java.lang.String)[pri:10, instance:testCases.TC_002_EthicsandCompliancePageTest@5bf0d49]" started-at="2024-02-28T15:28:50 IST" name="verifyPage" data-provider="SecoundPageValidationData" finished-at="2024-02-28T15:28:50 IST" duration-ms="53" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ethics and Compliance]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method signature="getAllContent()[pri:11, instance:testCases.TC_002_EthicsandCompliancePageTest@5bf0d49]" started-at="2024-02-28T15:28:51 IST" name="getAllContent" finished-at="2024-02-28T15:28:56 IST" depends-on-methods="testCases.TC_002_EthicsandCompliancePageTest.verifyPage" duration-ms="5832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllContent -->
+      </class> <!-- testCases.TC_002_EthicsandCompliancePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
