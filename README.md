@@ -1,13 +1,13 @@
 # CASProject
 This Project we are trying to print header Name of Be Cognizant Website, Profile Validation etc
 
-Problem Statement: 
+**Problem Statement:**
 1. Capture the user information and verify the user information.
 2. Verify Page Header View.
 3. Verify Under Corporate Functions, go to Legal & Corporate Affairs to see whether it is displayed or not.
 4. Click on Ethics and Compliance and verify whether it is displayed or not.
 
-Detailed Description: 
+**Detailed Description:**
 1. Navigating to Be-cognizant and capture the user information and verify.
 2. Store every header (Company, Service lines, Sales Resources, Markets and Countries, Corporate Functions, People etc.) in collection and print in console.
 3. Also capture sub-heading and print in console.
@@ -19,7 +19,7 @@ Detailed Description:
 9.close the tab.
 
 
-Key Automation Scope:  
+**Key Automation Scope:**
 -Extract menu items & store in collections 
 -Handling different browser windows 
 -Taking ScreenShot
@@ -29,7 +29,7 @@ Key Automation Scope:
  
 
 
-About this Project:
+**About this Project:**
 -src/test/java contains,
 •	pageObjects
 •	testBase
@@ -47,18 +47,16 @@ About this Project:
 -testng.xml file is for running the test cases.
 -test-output folder contains testNG report and other files.
  
-Tools and Technologies used:
+**Tools and Technologies used:**
 -Selenium with Java in Eclipse IDE
 -TestNG
 -Maven
 -WebDriver Manager
 -ExtentReports
 -Logger
-Plugins:
+**Plugins:**
 maven-compiler
  maven-surefire
- 
-By: Parag Das, M Vijay, Pallavi Panda
 
 
 
